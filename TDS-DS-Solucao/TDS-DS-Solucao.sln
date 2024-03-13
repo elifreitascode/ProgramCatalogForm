@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDS-DS-Library", "TDS-DS-Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{E0176769-9A20-491E-B373-85B4B2AF74BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsBD", "WinFormsBD\WinFormsBD.csproj", "{C39AB89F-752D-4B1F-97B2-B4756032DA8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E0176769-9A20-491E-B373-85B4B2AF74BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0176769-9A20-491E-B373-85B4B2AF74BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0176769-9A20-491E-B373-85B4B2AF74BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39AB89F-752D-4B1F-97B2-B4756032DA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39AB89F-752D-4B1F-97B2-B4756032DA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39AB89F-752D-4B1F-97B2-B4756032DA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39AB89F-752D-4B1F-97B2-B4756032DA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
