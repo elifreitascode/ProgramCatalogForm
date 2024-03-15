@@ -166,8 +166,6 @@ namespace WinFormsBD
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
-
             using (Form2 form = new Form2())
             {
                 form.ShowDialog();
@@ -176,6 +174,24 @@ namespace WinFormsBD
                     InserirAgenda(form.Registro);
             }
             
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (Form3 form = new Form3())
+            {
+                DataGridViewRow row = dataGridView1.SelectedRows[0];
+                form.Registro.Codigo = r
+                form.ShowDialog();
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            using (Form4 form = new Form4())
+            {
+                form.ShowDialog();
+            }
         }
     }
 }
